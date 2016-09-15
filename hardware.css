@@ -1,0 +1,32 @@
+#title {
+    text-align:center;
+    font-family:helvetica;
+    font-style:cursive;
+    color:black;
+    size:medium;
+    border:5px solid black;
+    width:190px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+#navbar {
+    background-color: black;
+    text-align: center;
+    color:black;
+    font-family:arial;
+}
+
+
+
+#navbar > li {
+    background-color: white;
+    display: inline-block;
+    padding: 12px;
+    border: 4px solid green;
+    color: blue;
+    margin: 9px;
+}
