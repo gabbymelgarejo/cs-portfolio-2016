@@ -1,0 +1,65 @@
+#title {
+    text-align:center;
+    font-family:helvetica;
+    color:black;
+    size:medium;
+    border:5px solid black;
+    width:190px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 3px;
+}
+
+
+#navbar {
+    background-color: black;
+    text-align: center;
+    color:black;
+    font-family:Helvetica;
+}
+
+    
+a:link {
+    color: hotpink;
+}
+
+/* visited link */
+a:visited {
+    color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: hotpink;
+}
+
+
+#navbar > li {
+    background-color: white;
+    display: inline-block;
+    padding: 12px;
+    border: 4px solid pink;
+    margin: 9px;
+    border-radius: 3px
+}
+
+
+#header {
+    text-align: center;
+    left: 100px;
+    top: 150px;
+    font-family: helvetica;
+    font-size: 3.5em;
+    text-decoration: underline;
+    margin-bottom: -20px;
+}
+
+#woah {
+    width: 650px;
+    font-family: 'Cinzel', serif;
+}

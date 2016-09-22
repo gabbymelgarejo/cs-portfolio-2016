@@ -14,9 +14,9 @@
 }
 
 #questions {
-    Font-family:helvetica;
-    font-style: italic;
-    
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    font-size: 1.3em;
 }
 
 #navbar {
@@ -69,6 +69,19 @@ a:active {
 }
 
 #boi {
-    font-family: helvetica;
-    font-size: 1.2m;
+    font-family:'Fantasy' Serif;
+    font-size: 1.3em;
+    font-style: normal
+}
+
+#word {
+    font-family: sans-serif;
+    font-size:1em;
+    font-style: normal;
+}
+
+#boxed {
+  border: 20px solid black;
+  font-family: helvetica;
+  
 }
