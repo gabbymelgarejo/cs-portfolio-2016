@@ -4,7 +4,7 @@
     color:black;
     size:medium;
     border:5px solid black;
-    width:190px;
+    width:200px;
     margin-left:auto;
     margin-right:auto;
     border-radius: 3px;
@@ -62,4 +62,11 @@ a:active {
 #woah {
     width: 650px;
     font-family: 'Cinzel', serif;
+}
+
+#dut {
+    font-family: serif;
+    text-align: center;
+    font-size: 3.2em;
+    
 }
