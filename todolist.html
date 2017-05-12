@@ -19,47 +19,36 @@
 
     <ul id="navbar">
 
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="index.html">About Me</a></li>
-        <li><a href="hardware.html">Hardware</a></li>
-        <li><a href="calculator.html">Calculator</a></li>
-        <li><a href="todolist.html">To Do List</a></li>
-        <li><a href="howto.html">How To</a></li>
-        <li><a href="how.html">How To</a></li>
-        <li><a href="<vindinium class="html"> </vindinium>">Vindinium</a></li>
-        <li><a href="bigproject.html">Big Project</a></li>
+           <li><a href="Home.html">Home</a></li>
+    <li><a href="index.html">About Me</a></li>
+    <li><a href="hardware.html">Hardware</a></li>
+    <li><a href="calculator.html">Calculator</a></li>
+    <li><a href="todolist.html">To Do List</a></li>
+    <li><a href="howto.html">How To: Hardware</a></li>
+    <li><a href="how2.html">How To: Calculator</a></li>
+    <li><a href="how3.html">How To: Vindinium</a></li>
+    <li><a href="howtwo.html">How To: BPF</a></li>
+    <li><a href="vindinium.html">Vindinium</a></li>
+    <li><a href="bpf.html">Big Project</a></li>
 
     </ul>
 
     <h2 id="header">To Do List</h2>
-<!--end of header + navbar-->
 
-  
-        <select id="changeStyle">
-            <option> None </option>
-            <option value="rgb(252, 255, 102)"> Yellow </option>
-            <option value="rgb(255, 163, 163)"> Red </option>
-            <option value="rgb(171, 255, 147)"> Green </option>
-            <option value="rgb(207, 252, 246)"> Blue </option>
-        </select>
-        
-             <input type="text" id="textbox" value="Type here">
+    <p><input type="text" id="inItemText"/> <input type="button" value="enter" onclick="enter()" />
+</p> 
 
-        <select id="customize">
-            <option> Default </option>
-            <option value="white"> White </option>
-            <option value="red"> Red </option>
-            <option value="green"> Green </option>
-            <option value="blue"> Blue </option>
-            <option value="purple"> Purple </option>
-        </select>
-
-    <input type="button" value ="add" id="addbutton">
-     <div id="tasks" style="cursor:pointer">
-        </span> 
-    </div>
+    <ul id="todolist"></ul>
+    
+<style> 
+    ul {list-style: none; padding: 0;margin: 0; }
+    li {border: 1px solid #ccc; background: #eee; padding: 5px 10px; color: #000; }
+    li span { padding-left: 10px; }
+    .checked{text-decoration: line-through; font-weight: bold; color: #c00; }
+</style>
             
     <script src="todolist.js"></script>
 
 </body>
+
 </html>
